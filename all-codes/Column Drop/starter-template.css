@@ -1,0 +1,27 @@
+body {
+  padding-top: 50px;
+
+
+}
+.starter-template {
+  
+  text-align: center;
+}
+
+.abc{
+	background-color: #F3F5F7;
+	overflow:hidden;
+}
+
+
+@media screen and (min-width: 768px){
+	body{
+		padding: 2%;
+	}
+	.cd{
+	font-size: 1.5em;
+}
+	}
+
+
+

@@ -1,0 +1,19 @@
+
+.starter-template {
+  
+  text-align: center;
+}
+
+
+
+@media screen and (max-width: 768px){
+.img-responsive{
+	padding-bottom: 2%;
+}
+.img-responsive:last-of-type{
+	padding-bottom: 0%;
+}
+}
+
+
+

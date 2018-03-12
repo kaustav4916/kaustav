@@ -1,0 +1,142 @@
+body{
+	padding-top: 80px;
+	font-size: 2em;
+	line-height: 1.5em;
+
+}
+header {
+  text-align: center;
+  padding: 2%;
+  background: #F3F5F7;
+  color: rgb(0, 56, 76);
+}
+section {
+	text-align: center;
+	
+}
+.cod{
+  
+  background: #F3F5F7;
+  padding: 2%;
+  
+
+}
+footer {
+	text-align: center;
+	background: #181818;
+	
+}
+.footmar{
+	margin-top: 40px;
+	color:white;
+	padding-bottom: 20px;
+}
+
+
+
+.tt1{
+
+   
+   background-image: url('tnt.jpg');
+   background-size: 100% 100%;
+   position: relative;
+   
+   padding-top:18% ; /* 1:1 Aspect Ratio */
+}
+.ecom1{
+
+   
+   background-image: url('ecom.jpeg');
+   background-size: 100% 100%;
+   position: relative;
+   
+   padding-top:18% ; /* 1:1 Aspect Ratio */
+}
+.im1{
+
+   
+   background-image: url('inv.jpg');
+   background-size: 100% 100%;
+   position: relative;
+   
+   padding-top:18% ; /* 1:1 Aspect Ratio */
+}
+
+
+
+
+
+.txt {
+   position:  absolute;
+   top: 30%;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   text-align: center;
+   
+   color: white;
+}
+
+
+@media screen and (min-width: 768px){
+	.ab{
+		float:left;
+		width: calc((100% - 20px)/3);
+		background-color: #F3F5F7;
+	
+	    margin-right: 10px;
+
+
+	}
+	.ab:last-of-type{
+		margin-right: 0;
+	}
+
+	.container-fluid{
+		max-width: 1600px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	
+
+}
+@media screen and (max-width: 768px){
+	
+	.ab{
+		padding-top: 48%;
+	}
+	body{
+		line-height: 1.2em;
+		padding-top: 80px;
+		font-size: 1.5em;
+		
+	}
+	.ab{
+	margin-bottom: 2%;
+    }
+    .ab:last-of-type{
+	margin-bottom: 0%;
+    }
+
+
+}
+
+@media screen and (max-width: 610px){
+	body{
+		padding-top: 60px;
+	}
+	.abc{
+		font-size: 1.5em;
+	}
+
+
+	}
+
+
+
+@media screen and (width: 768px){
+	.ab{
+		padding-top: 18%;
+	}
+}
